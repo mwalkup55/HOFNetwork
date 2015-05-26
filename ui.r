@@ -19,7 +19,7 @@ shinyUI(fluidPage(
     checkboxInput(
       "checkbox","Entire HOF", value=FALSE
     ),
-    draggable=TRUE,top="8%",left="2%",width="175"
+    draggable=TRUE,top="11%",left="2%",width="175"
   )
   
 ))
