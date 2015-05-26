@@ -14,12 +14,12 @@ shinyUI(fluidPage(
       'player', 'Player', choices = sort(union(df[,1],df[,2])), multiple = FALSE, selected = "Joe Montana"
     ),
     numericInput(
-      'dos','Degrees of Separation',min = 1,value = 1
+      'dos','Degrees of Sep.',min = 1,value = 1
     ),
     checkboxInput(
-      "checkbox","Show Entire HOF Network", value=FALSE
+      "checkbox","Entire HOF", value=FALSE
     ),
-    draggable=TRUE,top="8%",left="2%"
+    draggable=TRUE,top="8%",left="2%",width="175"
   )
   
 ))
